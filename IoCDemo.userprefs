@@ -1,0 +1,22 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus5" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MvvmCrossDemo/MvvmCrossDemo.Droid/MainActivity.cs">
+    <Files>
+      <File FileName="MvvmCrossDemo/MvvmCrossDemo.Droid/Implementations/DroidPlatform.cs" Line="6" Column="3" />
+      <File FileName="MvvmCrossDemo/MvvmCrossDemo.Droid/Implementations/DroidSettings.cs" Line="18" Column="2" />
+      <File FileName="MvvmCrossDemo/MvvmCrossDemo.Droid/App.cs" Line="24" Column="1" />
+      <File FileName="MvvmCrossDemo/MvvmCrossDemo.Droid/MainActivity.cs" Line="32" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/rob/dev/IoC/MvvmCrossDemo/MvvmCrossDemo.Droid/App.cs" line="19" column="1" />
+      <Breakpoint file="/Users/rob/dev/IoC/MvvmCrossDemo/MvvmCrossDemo.Droid/MainActivity.cs" line="21" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.TinyIoC.TinyIoCDemo.Droid MonoForAntroid.PreferredDevice="3.7&quot; WVGA (Nexus One)" />
+  <MonoDevelop.Ide.ItemProperties.Unity.UnityDemo.Droid MonoForAntroid.PreferredDevice="3.7&quot; WVGA (Nexus One)" />
+  <MonoDevelop.Ide.ItemProperties.MvvmCross.MvvmCrossDemo.Droid MonoForAntroid.PreferredDevice="3.7&quot; WVGA (Nexus One)" />
+  <MonoDevelop.Ide.ItemProperties.AutoFac.AutoFacDemo.Droid MonoForAntroid.PreferredDevice="3.7&quot; WVGA (Nexus One)" />
+</Properties>
