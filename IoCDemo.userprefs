@@ -1,9 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhoneRetina4.7.1" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="TinyIocDemo/TinyIoCDemo.iOS/App.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MvvmCrossDemo/MvvmCrossDemo.iOS/packages.config">
     <Files>
       <File FileName="AutoFacDemo/AutoFacDemo.Droid/packages.config" Line="1" Column="1" />
-      <File FileName="MvvmCrossDemo/MvvmCrossDemo.iOS/packages.config" Line="3" Column="16" />
+      <File FileName="MvvmCrossDemo/MvvmCrossDemo.iOS/packages.config" Line="5" Column="11" />
       <File FileName="TinyIocDemo/TinyIoCDemo.iOS/packages.config" Line="3" Column="23" />
       <File FileName="UnityDemo/UnityDemo.iOS/packages.config" Line="3" Column="21" />
       <File FileName="MvvmCrossDemo/MvvmCrossDemo.iOS/App.cs" Line="7" Column="1" />
@@ -11,9 +11,12 @@
       <File FileName="AutoFacDemo/AutoFacDemo.iOS/AutoFacDemo.iOSViewController.cs" Line="8" Column="1" />
       <File FileName="AutoFacDemo/AutoFacDemo.Droid/MainActivity.cs" Line="1" Column="1" />
       <File FileName="MvvmCrossDemo/MvvmCrossDemo.iOS/MvvmCrossDemo.iOSViewController.cs" Line="30" Column="50" />
-      <File FileName="TinyIocDemo/TinyIoCDemo.iOS/AppDelegate.cs" Line="46" Column="8" />
-      <File FileName="TinyIocDemo/TinyIoCDemo.iOS/App.cs" Line="17" Column="27" />
-      <File FileName="TinyIocDemo/TinyIoCDemo.iOS/TinyIoCDemo.iOSViewController.cs" Line="5" Column="26" />
+      <File FileName="TinyIocDemo/TinyIoCDemo.iOS/AppDelegate.cs" Line="3" Column="1" />
+      <File FileName="TinyIocDemo/TinyIoCDemo.iOS/App.cs" Line="1" Column="1" />
+      <File FileName="TinyIocDemo/TinyIoCDemo.iOS/TinyIoCDemo.iOSViewController.cs" Line="17" Column="79" />
+      <File FileName="TinyIocDemo/TinyIoCDemo.Droid/App.cs" Line="1" Column="1" />
+      <File FileName="UnityDemo/UnityDemo.iOS/App.cs" Line="1" Column="1" />
+      <File FileName="UnityDemo/UnityDemo.iOS/UnityDemo.iOSViewController.cs" Line="20" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
@@ -23,8 +26,8 @@
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.TinyIoC.TinyIoCDemo.Droid MonoForAntroid.PreferredDevice="3.7&quot; WVGA (Nexus One)" />
   <MonoDevelop.Ide.ItemProperties.Unity.UnityDemo.Droid MonoForAntroid.PreferredDevice="3.7&quot; WVGA (Nexus One)" />
-  <MonoDevelop.Ide.ItemProperties.MvvmCross.MvvmCrossDemo.Droid MonoForAntroid.PreferredDevice="3.7&quot; WVGA (Nexus One)" />
+  <MonoDevelop.Ide.ItemProperties.TinyIoC.TinyIoCDemo.Droid MonoForAntroid.PreferredDevice="3.7&quot; WVGA (Nexus One)" />
   <MonoDevelop.Ide.ItemProperties.AutoFac.AutoFacDemo.Droid MonoForAntroid.PreferredDevice="3.7&quot; WVGA (Nexus One)" />
+  <MonoDevelop.Ide.ItemProperties.MvvmCross.MvvmCrossDemo.Droid MonoForAntroid.PreferredDevice="3.7&quot; WVGA (Nexus One)" />
 </Properties>

@@ -17,7 +17,7 @@ namespace UnityDemo.iOS
 		{
 			base.ViewDidLoad ();
 			
-			MainViewModel viewModel = App.Container.Resolve (typeof(MainViewModel), "mainViewModel") as MainViewModel;
+			var viewModel = App.Container.Resolve (typeof(MainViewModel), "mainViewModel") as MainViewModel;
 
 			var platformName = viewModel.PlatformName;
 			var container = viewModel.ContainerName;

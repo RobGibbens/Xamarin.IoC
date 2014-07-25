@@ -1,12 +1,21 @@
-﻿using System;
+﻿using TinyIoC;
+using IoCDemo.Core;
 
-namespace IoCTest.iOS
+namespace TinyIoCDemo.iOS
 {
-	public class App
+	public static class App
 	{
-		public App ()
+		public static void Initialize ()
 		{
+			//AutoRegister works, but inspects the code. This is a performance
+			//hit every single time the app starts, for the "benefit" of a few
+			//seconds of developer time.
+			//TinyIoCContainer.Current.AutoRegister();
+
+			var container = TinyIoCContainer.Current;
+
+			container.Register<IPlatform, IOSPlatform> ();
+			container.Register<ISettings, IOSSettings> ();
 		}
 	}
 }
-
