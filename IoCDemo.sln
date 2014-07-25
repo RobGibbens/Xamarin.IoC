@@ -198,6 +198,6 @@ Global
 		{494414DD-5EB8-490B-A514-4A644CEC69C0} = {D96AC51C-9559-4D6A-8305-3352C942A51A}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = UnityDemo\UnityDemo.iOS\UnityDemo.iOS.csproj
+		StartupItem = UnityDemo\UnityDemo.Droid\UnityDemo.Droid.csproj
 	EndGlobalSection
 EndGlobal
