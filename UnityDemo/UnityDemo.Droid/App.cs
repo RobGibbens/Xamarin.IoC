@@ -18,8 +18,8 @@ namespace UnityDemo.Droid
 		public override void OnCreate()
 		{
 			App.Container = new UnityContainer();
-			App.Container.RegisterType (typeof(IPlatform), typeof(DroidPlatform));
-			App.Container.RegisterType (typeof(ISettings), typeof(DroidSettings));
+			App.Container.RegisterType<IPlatform, DroidPlatform> ();
+			App.Container.RegisterType<ISettings, DroidSettings> ();
 
 			base.OnCreate();
 		}

@@ -10,8 +10,8 @@ namespace UnityDemo.iOS
 		public static void Initialize()
 		{
 			App.Container = new UnityContainer();
-			App.Container.RegisterType (typeof(IPlatform), typeof(IOSPlatform));
-			App.Container.RegisterType (typeof(ISettings), typeof(IOSSettings));
+			App.Container.RegisterType<IPlatform, IOSPlatform> ();
+			App.Container.RegisterType<ISettings, IOSSettings> ();
 		}
 	}
 }
