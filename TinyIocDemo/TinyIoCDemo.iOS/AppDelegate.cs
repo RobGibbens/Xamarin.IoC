@@ -1,7 +1,5 @@
 ﻿using MonoTouch.Foundation;
 using MonoTouch.UIKit;
-using TinyIoC;
-using IoCDemo.Core;
 
 namespace TinyIoCDemo.iOS
 {
@@ -43,15 +41,7 @@ namespace TinyIoCDemo.iOS
 
 		public override void FinishedLaunching (UIApplication application)
 		{
-			//AutoRegister works, but inspects the code. This is a performance
-			//hit every single time the app starts, for the "benefit" of a few
-			//seconds of developer time.
-			//TinyIoCContainer.Current.AutoRegister();
-
-			var container = TinyIoCContainer.Current;
-
-			container.Register<IPlatform, IOSPlatform> ();
-			container.Register<ISettings, IOSSettings> ();
+			App.Initialize ();
 		}
 	}
 }

@@ -6,7 +6,7 @@
     <ProjectTypeGuids>{6BC8ED88-2882-458C-8E55-DFD12B67127B};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <ProjectGuid>{27503D84-463A-4FB4-B2B0-E069CFD3A2D9}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>IoCTest.iOS</RootNamespace>
+    <RootNamespace>TinyIoCDemo.iOS</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
@@ -117,6 +117,7 @@
     <Compile Include="TinyIoCDemo.iOSViewController.designer.cs">
       <DependentUpon>TinyIoCDemo.iOSViewController.cs</DependentUpon>
     </Compile>
+    <Compile Include="App.cs" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="MainStoryboard.storyboard" />
