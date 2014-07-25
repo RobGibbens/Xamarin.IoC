@@ -14,8 +14,8 @@ namespace TinyIoCDemo.iOS
 
 			var container = TinyIoCContainer.Current;
 
-			container.Register<IPlatform, IOSPlatform> ();
-			container.Register<ISettings, IOSSettings> ();
+			container.Register<IPlatform, ApplePlatform> ();
+			container.Register<ISettings, AppleSettings> ();
 		}
 	}
 }

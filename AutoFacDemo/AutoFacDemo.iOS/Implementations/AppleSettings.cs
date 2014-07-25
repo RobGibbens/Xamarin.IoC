@@ -1,9 +1,8 @@
-using System;
 using IoCDemo.Core;
 
-namespace UnityDemo.iOS
+namespace AutoFacDemo.iOS
 {
-	public class IOSSettings : ISettings
+	public class AppleSettings : ISettings
 	{
 		public string UserName {
 			get {

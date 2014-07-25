@@ -1,8 +1,8 @@
-using IoCDemo.Core;
+﻿using IoCDemo.Core;
 
-namespace AutoFacDemo.iOS
+namespace MvvmCrossDemo.iOS
 {
-	public class IOSSettings : ISettings
+	public class AppleSettings : ISettings
 	{
 		public string UserName {
 			get {

@@ -1,8 +1,8 @@
 using IoCDemo.Core;
 
-namespace MvvmCrossDemo.iOS
+namespace TinyIoCDemo.iOS
 {
-	public class IOSPlatform : IPlatform
+	public class ApplePlatform : IPlatform
 	{
 		public string GetPlatformName ()
 		{
@@ -11,9 +11,8 @@ namespace MvvmCrossDemo.iOS
 
 		public string ContainerName {
 			get {
-				return "MvvmCross";
+				return "TinyIoC";
 			}
 		}
 	}
-	
 }

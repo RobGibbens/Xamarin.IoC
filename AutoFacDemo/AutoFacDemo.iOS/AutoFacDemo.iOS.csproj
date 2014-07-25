@@ -107,9 +107,9 @@
     <Compile Include="AutoFacDemo.iOSViewController.designer.cs">
       <DependentUpon>AutoFacDemo.iOSViewController.cs</DependentUpon>
     </Compile>
-    <Compile Include="Implementations\IOSPlatform.cs" />
-    <Compile Include="Implementations\IOSSettings.cs" />
     <Compile Include="App.cs" />
+    <Compile Include="Implementations\ApplePlatform.cs" />
+    <Compile Include="Implementations\AppleSettings.cs" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="MainStoryboard.storyboard" />

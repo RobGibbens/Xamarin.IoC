@@ -1,9 +1,9 @@
 ﻿using System;
 using IoCDemo.Core;
 
-namespace UnityDemo.iOS
+namespace AutoFacDemo.iOS
 {
-	public class IOSPlatform : IPlatform
+	public class ApplePlatform : IPlatform
 	{
 		public string GetPlatformName ()
 		{
@@ -12,7 +12,7 @@ namespace UnityDemo.iOS
 
 		public string ContainerName {
 			get {
-				return "Unity";
+				return "AutoFac";
 			}
 		}
 	}

@@ -1,8 +1,8 @@
-﻿using IoCDemo.Core;
+using IoCDemo.Core;
 
-namespace MvvmCrossDemo.iOS
+namespace TinyIoCDemo.iOS
 {
-	public class IOSSettings : ISettings
+	public class AppleSettings : ISettings
 	{
 		public string UserName {
 			get {

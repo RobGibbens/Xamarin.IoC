@@ -11,8 +11,8 @@ namespace AutoFacDemo.iOS
 		{
 			var builder = new ContainerBuilder();
 
-			builder.RegisterInstance(new IOSPlatform()).As<IPlatform>();
-			builder.RegisterInstance(new IOSSettings()).As<ISettings>();
+			builder.RegisterInstance(new ApplePlatform()).As<IPlatform>();
+			builder.RegisterInstance(new AppleSettings()).As<ISettings>();
 			builder.RegisterType<MainViewModel> ();
 
 			App.Container = builder.Build ();

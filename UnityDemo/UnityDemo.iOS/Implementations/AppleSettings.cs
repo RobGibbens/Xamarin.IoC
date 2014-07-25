@@ -1,8 +1,9 @@
+using System;
 using IoCDemo.Core;
 
-namespace TinyIoCDemo.iOS
+namespace UnityDemo.iOS
 {
-	public class IOSSettings : ISettings
+	public class AppleSettings : ISettings
 	{
 		public string UserName {
 			get {

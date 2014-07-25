@@ -9,8 +9,8 @@ namespace MvvmCrossDemo.iOS
 		public static void Initialize ()
 		{
 			MvxSimpleIoCContainer.Initialize ();
-			Mvx.RegisterType<IPlatform, IOSPlatform> ();
-			Mvx.RegisterType<ISettings, IOSSettings> ();
+			Mvx.RegisterType<IPlatform, ApplePlatform> ();
+			Mvx.RegisterType<ISettings, AppleSettings> ();
 		}
 	}
 }
