@@ -1,34 +1,23 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.192.168.56.101:5555" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="UnityDemo/UnityDemo.iOS/App.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhoneRetina4.7.1" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="NinjectDemo/NinjectDemo.iOS/NinjectDemoModule.cs">
     <Files>
-      <File FileName="NinjectDemo/NinjectDemo.Droid/App.cs" Line="2" Column="2" />
-      <File FileName="NinjectDemo/NinjectDemo.Droid/MainActivity.cs" Line="2" Column="2" />
-      <File FileName="NinjectDemo/NinjectDemo.Droid/NinjectDemoModule.cs" Line="4" Column="4" />
+      <File FileName="NinjectDemo/NinjectDemo.Droid/App.cs" Line="1" Column="1" />
+      <File FileName="NinjectDemo/NinjectDemo.Droid/MainActivity.cs" Line="1" Column="1" />
+      <File FileName="NinjectDemo/NinjectDemo.Droid/NinjectDemoModule.cs" Line="1" Column="1" />
       <File FileName="UnityDemo/UnityDemo.iOS/App.cs" Line="4" Column="4" />
-      <File FileName="AutoFacDemo/AutoFacDemo.iOS/App.cs" Line="23" Column="23" />
+      <File FileName="AutoFacDemo/AutoFacDemo.iOS/App.cs" Line="1" Column="1" />
       <File FileName="MvvmCrossDemo/MvvmCrossDemo.iOS/App.cs" Line="1" Column="1" />
       <File FileName="NinjectDemo/NinjectDemo.iOS/App.cs" Line="1" Column="1" />
-      <File FileName="TinyIocDemo/TinyIoCDemo.iOS/App.cs" Line="1" Column="1" />
+      <File FileName="TinyIocDemo/TinyIoCDemo.iOS/App.cs" Line="2" Column="2" />
+      <File FileName="NinjectDemo/NinjectDemo.iOS/NinjectDemoViewController.cs" Line="1" Column="1" />
+      <File FileName="TinyIocDemo/TinyIoCDemo.iOS/TinyIoCDemo.iOSViewController.cs" Line="1" Column="1" />
+      <File FileName="NinjectDemo/NinjectDemo.iOS/NinjectDemoModule.cs" Line="1" Column="1" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State expanded="True">
-          <Node name="Unity" expanded="True">
-            <Node name="UnityDemo.iOS" expanded="True">
-              <Node name="App.cs" selected="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/rob/dev/IoC/TinyIocDemo/TinyIoCDemo.iOS/App.cs" line="5" column="1" />
-      <Breakpoint file="/Users/rob/dev/IoC/NinjectDemo/NinjectDemo.iOS/NinjectDemoViewController.cs" line="18" column="1" />
-      <Breakpoint file="/Users/rob/dev/IoC/NinjectDemo/NinjectDemo.iOS/App.cs" line="11" column="1" />
-      <Breakpoint file="/Users/rob/dev/IoC/NinjectDemo/NinjectDemo.iOS/NinjectDemoModule.cs" line="10" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

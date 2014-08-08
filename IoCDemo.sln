@@ -238,6 +238,6 @@ Global
 		{39DFBFE4-84F7-4782-B2D7-EF700DB99182} = {33F906E4-5DDA-4E3E-ABA4-3BB0956ECD5F}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = NinjectDemo\NinjectDemo.Droid\NinjectDemo.Droid.csproj
+		StartupItem = NinjectDemo\NinjectDemo.iOS\NinjectDemo.iOS.csproj
 	EndGlobalSection
 EndGlobal
