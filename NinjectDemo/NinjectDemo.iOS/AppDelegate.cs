@@ -1,14 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-
-using MonoTouch.Foundation;
+﻿using MonoTouch.Foundation;
 using MonoTouch.UIKit;
-using Ninject;
-using Ninject.Modules;
-using IoCDemo.Core;
 
-namespace Nin.iOS
+namespace NinjectDemo.iOS
 {
 	// The UIApplicationDelegate for the application. This class is responsible for launching the
 	// User Interface of the application, as well as listening (and optionally responding) to
@@ -48,10 +41,7 @@ namespace Nin.iOS
 
 		public override void FinishedLaunching (UIApplication application)
 		{
-//			var kernel = new Ninject.StandardKernel(new MyModule());
-//			kernel.
+			App.Initialize ();
 		}
 	}
-
-
 }

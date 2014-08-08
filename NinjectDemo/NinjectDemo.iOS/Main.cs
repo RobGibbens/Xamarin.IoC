@@ -5,7 +5,7 @@ using System.Linq;
 using MonoTouch.Foundation;
 using MonoTouch.UIKit;
 
-namespace Nin.iOS
+namespace NinjectDemo.iOS
 {
 	public class Application
 	{

@@ -24,10 +24,6 @@ namespace NinjectDemo.Droid
 			global::Android.Runtime.ResourceIdManager.UpdateIdValues();
 		}
 		
-		public static void UpdateIdValues()
-		{
-		}
-		
 		public partial class Attribute
 		{
 			
@@ -60,8 +56,17 @@ namespace NinjectDemo.Droid
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f050001
+			public const int containerTextView = 2131034113;
+			
+			// aapt resource value: 0x7f050003
+			public const int passwordText = 2131034115;
+			
 			// aapt resource value: 0x7f050000
-			public const int myButton = 2131034112;
+			public const int platformTextView = 2131034112;
+			
+			// aapt resource value: 0x7f050002
+			public const int userNameTextView = 2131034114;
 			
 			static Id()
 			{

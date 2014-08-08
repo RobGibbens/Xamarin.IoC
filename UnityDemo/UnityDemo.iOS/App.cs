@@ -3,7 +3,7 @@ using IoCDemo.Core;
 
 namespace UnityDemo.iOS
 {
-	public class App
+	public static class App
 	{
 		public static UnityContainer Container { get; set; }
 
